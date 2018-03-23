@@ -1,0 +1,14 @@
+{
+  "name": "pattern-library",
+  "version": "0.1.0",
+  "dependencies": {
+    "@frctl/consolidate": "^1.0.1",
+    "@frctl/fractal": "^1.1.7"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-util": "^3.0.8",
+    "knockout": "^3.5.0-beta"
+  }
+}
