@@ -1,0 +1,7 @@
+.btn-control {
+  padding: 10px; }
+  .btn-control__icon {
+    width: 10px;
+    height: 10px;
+    display: block;
+    background: blue; }

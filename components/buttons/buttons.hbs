@@ -1,0 +1,11 @@
+<link media="all" rel="stylesheet" href="{{path '/css/buttons.css'}}">
+
+<button class="btn-control"
+type="button"
+tabindex="0"
+data-bind="css: {{css}}, disable: {{isDisabled}}, visible: {{isVisible}}, attr: { title: {{toolTip}}, name: name }">
+  <!-- ko if: withIcon -->
+  <i class="btn-control__icon" tabindex="0" data-bind="css: iconCssClass" />
+  <!-- /ko -->
+  <span>{{name}}</span>
+</button>
